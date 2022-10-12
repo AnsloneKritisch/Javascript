@@ -8,13 +8,28 @@
 </head>
 <body>
     <script>
-        var hot =  false ;
-        var temp =  60 ;
+        
+        var temp =  prompt("What is room Temprature in c : ") ;
 
-        if (true)
+        var hot =  false ;
+       
+
+        if (temp>27)
         {
-            alert(" Temp is geather 40") ;
-            
+            alert("Too hot 🥵") ;
+            hot =  true ;    
+        }
+
+        else
+        {
+            alert("It Cool 🥶 ")
+            hot =  false ;
+
+        }
+
+        if(hot==true)
+        {
+            alert("AC on (✿◡‿◡) ")
         }
         
     </script>
